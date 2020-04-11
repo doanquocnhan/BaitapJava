@@ -13,22 +13,16 @@ public class SinhVienBiz extends SinhVienPoly{
     public double diemMarketing;
     public double diemSales;
 
-    @Override
-    public double getDiem() {
-        public double diemMarketing;
-    public double diemSales;
-
-    // constructor
-    public SinhVienBiz(String hoTen, String nganhHoc, double diemMarketing, double diemSales) {
-      super(hoTen, nganhHoc);
-      this.diemMarketing = diemMarketing;
-      this.diemSales = diemSales;
+    public SinhVienBiz(double diemMarketing, double diemSales, String NganhHoc, String HoTen) {
+        super(NganhHoc, HoTen);
+        this.diemMarketing = diemMarketing;
+        this.diemSales = diemSales;
     }
 
-    // defined abstract method
     @Override
     public double getDiem() {
-      return (2 * this.diemMarketing + this.diemSales) / 3;
+      return (2 * this.diemMarketing + this.diemSales) /3;
+      
     };
 
 }
