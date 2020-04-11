@@ -9,7 +9,7 @@ package Baitap1_04;
  *
  * @author Nhan
  */
-public class Chuyenxe {
+public abstract class Chuyenxe {
     public String MaSoChuyen;
     public String HoTenTX;
     public int Soxe;
