@@ -29,5 +29,3 @@ public class SinhVienIT extends SinhVienPoly{
     };
 }
 
-    
-}
