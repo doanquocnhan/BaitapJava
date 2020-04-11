@@ -11,7 +11,7 @@ package Baitap1_03;
  */
 public class Main03 {
     public static void main(String[] args) {
-        SinhVienIT it = new SinhVienIT("Nguyen Van Phung"," Khoa hoc may tinh", 7, 8, 5);
+        SinhVienIT it = new SinhVienIT(" Khoa hoc may tinh","Nguyen Van Phung", 7, 8, 5);
         SinhVienBiz bz = new SinhVienBiz(8, 9, "CEO"," Nguyen Thi Huong");
         it.xuat();
         System.out.println("diem: " + it.getDiem());
